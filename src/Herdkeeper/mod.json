@@ -1,0 +1,12 @@
+{
+  "description": "Tamed wolves, boars, lox and moose keep breeding in their pens while no player is nearby, by the vanilla rules but without needing food. Server-only: clients, including unmodded and console players, need nothing.",
+  "websiteUrl": "",
+  "installSide": "server",
+  "vanillaClientsSupported": true,
+  "runtimeStatus": "Runtime-pending",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2351"
+  ],
+  "githubRepository": "Vansinnet/herdkeeper",
+  "upstream": null
+}

@@ -1,0 +1,20 @@
+{
+  "inspectedDate": "2026-10-26",
+  "gameVersion": "1.0.20",
+  "tool": "UnityPy 1.25.0 (all MonoBehaviours with a Procreation m_pregnancyDuration field)",
+  "source": "valheim_Data/StreamingAssets/SoftRef/Bundles/c4210710",
+  "sourceSha256": "2FDCF6840C7A5EA64A3F19B63BB3047D5884C202BA67B7AFC997491F635A1B55",
+  "status": "Source-verified",
+  "note": "No prefab uses m_seperatePartner or m_noPartnerOffspring. Times in seconds. The plugin re-reads these values from ZNetScene at runtime.",
+  "prefabs": [
+    { "name": "Wolf", "offspring": "Wolf_cub", "interval": 30, "totalRange": 10, "maxCreatures": 4, "partnerRange": 3, "pregnancyChance": 0.33, "pregnancy": 60, "lovePoints": 3, "spawnOffset": 1, "included": true },
+    { "name": "Wolf_spiritcaller", "offspring": "Wolf_cub", "interval": 30, "totalRange": 10, "maxCreatures": 4, "partnerRange": 3, "pregnancyChance": 0.33, "pregnancy": 60, "lovePoints": 3, "spawnOffset": 1, "included": true },
+    { "name": "Boar", "offspring": "Boar_piggy", "interval": 30, "totalRange": 10, "maxCreatures": 5, "partnerRange": 3, "pregnancyChance": 0.33, "pregnancy": 60, "lovePoints": 3, "spawnOffset": 1, "included": true },
+    { "name": "Lox", "offspring": "Lox_Calf", "interval": 30, "totalRange": 20, "maxCreatures": 4, "partnerRange": 8, "pregnancyChance": 0.33, "pregnancy": 120, "lovePoints": 4, "spawnOffset": 2, "included": true },
+    { "name": "Moose", "offspring": "Moose_calf", "interval": 30, "totalRange": 10, "maxCreatures": 5, "partnerRange": 3, "pregnancyChance": 0.33, "pregnancy": 60, "lovePoints": 3, "spawnOffset": 1, "included": true },
+    { "name": "Hen", "offspring": "ChickenEgg", "maxCreatures": 10, "included": false, "reason": "offspring is an egg item, not a creature" },
+    { "name": "Asksvin", "offspring": "AsksvinEgg", "maxCreatures": 10, "included": false, "reason": "offspring is an egg item, not a creature" },
+    { "name": "Placeable_HardRock", "offspring": "Pickable_HardRockOffspring", "included": false, "reason": "not a tameable creature" }
+  ],
+  "runtimeCoverage": "None; prefab registration on a headless server has not been observed."
+}

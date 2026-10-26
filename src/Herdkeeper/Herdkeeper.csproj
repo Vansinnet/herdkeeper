@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <PluginGuid>se.junge.valheim.herdkeeper</PluginGuid>
+    <PluginName>Herdkeeper</PluginName>
+  </PropertyGroup>
+  <ItemGroup>
+    <GameReference Include="BepInEx;assembly_valheim;assembly_utils;UnityEngine;UnityEngine.CoreModule" />
+  </ItemGroup>
+</Project>
